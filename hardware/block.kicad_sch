@@ -1,0 +1,219 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5aa4abbb-f07c-42f2-b08d-e36cc915bc69")
+	(paper "USLetter")
+	(lib_symbols)
+	(rectangle
+		(start 45.72 49.53)
+		(end 76.2 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3a00c8b8-0d0e-46ef-86b1-e62d18b325e7")
+	)
+	(text "BLOCK DIAGRAM"
+		(exclude_from_sim yes)
+		(at 16.764 24.638 0)
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 7.62 7.62)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "675181c8-b361-430e-86a2-45b08b972cf1")
+	)
+	(text "Target Specifications"
+		(exclude_from_sim yes)
+		(at 214.63 166.37 0)
+		(effects
+			(font
+				(face "Verdana")
+				(size 1.905 1.905)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "bce839df-dca0-4669-8531-20a456f1ae17")
+	)
+	(polyline
+		(pts
+			(xy 214.884 167.64) (xy 265.43 167.64)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "4fe8c37c-a868-44ea-9f35-cff9120c7a18")
+	)
+	(polyline
+		(pts
+			(xy 214.63 181.61) (xy 265.176 181.61)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(uuid "de418a16-d01d-4d9c-a135-c52df0961f7c")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external no)
+			(header no)
+		)
+		(separators
+			(rows no)
+			(cols no)
+		)
+		(column_widths 27.178 24.13)
+		(row_heights 3.048 3.048 3.048 3.048)
+		(uuid "4a6842b9-03f1-4c4b-8729-fb3d883790c2")
+		(cells
+			(table_cell "Input Voltage:"
+				(exclude_from_sim no)
+				(at 214.122 168.91 0)
+				(size 27.178 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+					(justify right)
+				)
+				(uuid "3dfc322f-a8b7-40b0-8f3f-dcc5bb48d8e1")
+			)
+			(table_cell "??V-??V"
+				(exclude_from_sim no)
+				(at 241.3 168.91 0)
+				(size 24.13 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+					(justify left)
+				)
+				(uuid "a561799d-e1be-440c-a309-e5200b5a536a")
+			)
+			(table_cell "Spec 1:"
+				(exclude_from_sim no)
+				(at 214.122 171.958 0)
+				(size 27.178 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+					(justify right)
+				)
+				(uuid "71f3cb8e-cd11-442d-b2a4-3e755c6e493a")
+			)
+			(table_cell "????"
+				(exclude_from_sim no)
+				(at 241.3 171.958 0)
+				(size 24.13 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+					(justify left)
+				)
+				(uuid "67296d3e-1b73-4c00-b4d6-f8f9d620bc6d")
+			)
+			(table_cell "Spec 2:"
+				(exclude_from_sim no)
+				(at 214.122 175.006 0)
+				(size 27.178 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+					(justify right)
+				)
+				(uuid "13a0f6e9-7e32-479b-a51a-cb2baf56235e")
+			)
+			(table_cell "????"
+				(exclude_from_sim no)
+				(at 241.3 175.006 0)
+				(size 24.13 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+					(justify left)
+				)
+				(uuid "62611f3e-8e78-41d6-aff5-125e9ce791a3")
+			)
+			(table_cell "Spec 3:"
+				(exclude_from_sim no)
+				(at 214.122 178.054 0)
+				(size 27.178 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+					(justify right)
+				)
+				(uuid "f2d78ed0-dc10-4586-b920-57ea1c3f2a8c")
+			)
+			(table_cell "????"
+				(exclude_from_sim no)
+				(at 241.3 178.054 0)
+				(size 24.13 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.905 1.905)
+					)
+					(justify left)
+				)
+				(uuid "9d54ac1d-ae71-44b3-b73d-49f9fd490178")
+			)
+		)
+	)
+)

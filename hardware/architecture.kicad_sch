@@ -1,0 +1,712 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c68d5f25-481b-4bff-8782-ef74397475a1")
+	(paper "USLetter")
+	(lib_symbols)
+	(text "PROJECT ARCHITECTURE"
+		(exclude_from_sim yes)
+		(at 17.018 24.13 0)
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 7.62 7.62)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "35082208-e72d-4c8a-90c9-e5072a8fff90")
+	)
+	(sheet
+		(at 182.88 69.85)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "19e04597-a6fe-42da-a17e-01d5f27ce79e")
+		(property "Sheetname" "IO - MISC"
+			(at 182.88 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_misc.kicad_sch"
+			(at 182.88 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 116.84)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2615a0df-47df-43e0-b9c8-e8388bbc46ec")
+		(property "Sheetname" "MCU - IO"
+			(at 105.41 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_io.kicad_sch"
+			(at 105.41 131.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 69.85)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "41a48442-d9e6-4275-985f-00f6c961e640")
+		(property "Sheetname" "Analog - V_ref"
+			(at 62.23 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_vref.kicad_sch"
+			(at 62.23 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 91.44)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "455421bb-9629-4720-9f42-e7b4644d9d76")
+		(property "Sheetname" "MCU - Power"
+			(at 105.41 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_power.kicad_sch"
+			(at 105.41 105.9946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 69.85)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "495e06de-175e-45a8-a93e-da8f07b244db")
+		(property "Sheetname" "IO - USB"
+			(at 146.05 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_usb.kicad_sch"
+			(at 146.05 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 91.44)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6a3c65a9-a341-408d-8331-8332e958297d")
+		(property "Sheetname" "IO - TDC"
+			(at 146.05 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_tdc.kicad_sch"
+			(at 146.05 105.9946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 116.84)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6f0db06a-36ae-4f85-91bc-60ff72259c4b")
+		(property "Sheetname" "IO - DAC"
+			(at 147.32 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_dac.kicad_sch"
+			(at 147.32 131.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 140.97)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7f951147-b7ea-4bc1-85d2-14615a9f9d40")
+		(property "Sheetname" "IO - Ethernet"
+			(at 147.32 140.2584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_ethernet.kicad_sch"
+			(at 147.32 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 69.85)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8b2e09f0-b896-4599-a00e-805c8dfb921c")
+		(property "Sheetname" "MCU - Base"
+			(at 105.41 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_base.kicad_sch"
+			(at 105.41 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 91.44)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a35761b0-2eac-480a-8cfe-ed0fc761e15a")
+		(property "Sheetname" "Analog - Distribution"
+			(at 62.23 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog - Distribution.kicad_sch"
+			(at 62.23 105.9946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 44.45)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a8519ecf-6575-4278-b12f-2651fb6cbe80")
+		(property "Sheetname" "Power - Analog"
+			(at 144.78 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_analog.kicad_sch"
+			(at 144.78 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 43.18)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b2993556-42f1-4182-a8f9-605ebe585b85")
+		(property "Sheetname" "Power - Battery"
+			(at 181.61 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_battery.kicad_sch"
+			(at 181.61 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 44.45)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "be753e91-5e53-41e8-95f7-634cfcdea436")
+		(property "Sheetname" "Power - Digital"
+			(at 105.41 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_digital.kicad_sch"
+			(at 105.41 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 44.45)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cafcae6b-de4f-41a7-8a0c-34b3afd9f999")
+		(property "Sheetname" "Power - Bulk"
+			(at 62.23 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_bulk.kicad_sch"
+			(at 62.23 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 116.84)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cb2a1dba-9217-4964-a94a-0b38989ec9e1")
+		(property "Sheetname" "Analog - OXCO"
+			(at 62.23 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_oxco.kicad_sch"
+			(at 62.23 131.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gpsdo_standard_OSC5A2B02"
+				(path "/4eb6ef6e-4aaf-4206-b8a5-aebd16987238/d4503496-656d-4cb5-a411-c461aa0b3dee"
+					(page "13")
+				)
+			)
+		)
+	)
+)
